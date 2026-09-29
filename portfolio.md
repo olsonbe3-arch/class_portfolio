@@ -5,5 +5,5 @@ My greatest interest in this class jsut like any is if i can see myself doing th
 #website 1
 Intro to HTML
 #Portfolio Starting Html
-Current Project
-made logo in microsoft paint
+Beginning of Semester Long Project
+made logo made in canvas
