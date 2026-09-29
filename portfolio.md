@@ -4,6 +4,6 @@ I am a senior at Michigan State University from the state of michigan. I orignal
 My greatest interest in this class jsut like any is if i can see myself doing this as a career because I still do not quite know what i want to do in life quite yet #aboutsection2
 #website 1
 Intro to HTML
-#Portfolio
+#Portfolio Starting Html
 Current Project
 made logo in microsoft paint
