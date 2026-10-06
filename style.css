@@ -1,9 +1,23 @@
+:root {
+    --primarybg: #e3e3e3;
+    --primarytext: #444;
+    --standardgap: 40px;
+
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background: var(--primarybg);
+    color: var(--primarytext)
+
+
 }
 
 #Projects article {
     background-color: #eee;
-    margin: 40px;
+    margin: var(--standardgap)
 }
     
+#menu {
+    background-color: gray;
+}
