@@ -1,6 +1,9 @@
 :root {
-    --primarybg: #e3e3e3;
-    --primarytext: #444;
+    --primarybg: #BE8995;
+    --primarytext: #2A2D34;
+    --projectarticles: #8EB89B;
+    --secondarybg: #1098F7; 
+    --highlight: #80C2AF;
     --standardgap: 40px;
 
 }
@@ -14,10 +17,43 @@ body {
 }
 
 #Projects article {
-    background-color: #eee;
+    background-color: var(--projectarticles);
     margin: var(--standardgap)
 }
     
 #menu {
-    background-color: gray;
+    background-color: var(--primarybg)
+}
+
+h2{
+    font-size: 3.5em;
+    font-weight: 2em;
+    color: var(--primarytext)
+
+}
+
+p{
+    font-size: 1.25em;
+    color: var(--primarytext)
+}
+
+nav{
+    color: var(--secondarybg);
+    border-radius: 35px;
+    margin-top: 2rem;
+
+}
+
+footer{
+    text-align: center;
+}
+
+#logo {
+    position: relative;
+    left: 675px;
+    bottom: -25px;
+}
+
+#logo img:hover {
+    transform: scale(1.1);
 }
