@@ -1,7 +1,7 @@
 :root {
     --primarybg: #BE8995;
     --primarytext: #2A2D34;
-    --projectarticles: #8EB89B;
+    --projectarticles: #FFF4E4;
     --secondarybg: #FAD4C0; 
     --highlight: #80C2AF;
     --standardgap: 40px;
@@ -13,12 +13,15 @@ body {
     background: var(--primarybg);
     color: var(--primarytext);
     text-shadow: .75px .75px var(--highlight);
+    border-bottom: 10px solid var(--secondarybg);
 }
 
 #Projects article {
     background-color: var(--projectarticles);
-    margin: var(--standardgap)
-    box-shadow: 10px 10px;
+    margin: var(--standardgap);
+    border-radius: 12px;
+    
+    
 }
     
 #menu {
@@ -26,7 +29,7 @@ body {
 }
 
 h2{
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-weight: 2em;
     color: var(--primarytext)
 
@@ -51,7 +54,7 @@ nav{
 #logo {
     position: relative;
     left: 675px;
-    bottom: -25px;
+    bottom: 40px;
  
 }
 
@@ -76,6 +79,7 @@ nav ul li a {
 
 .wayfinder{
     position: relative;
+    bottom: 40px;
     display: inline-block;
 }
 
@@ -92,6 +96,33 @@ nav ul li a {
 /* How To Create a Dropdown Menu With CSS and JavaScript. (n.d.). Www.W3schools.Com. Retrieved October 8, 2026, from https://www.w3schools.com/howto/howto_js_dropdown.asp*/
 /*This source was used in creation of the rulesets beginning on lines 77, 82, and 88.*/
 
+#Projects article h3{
+    font-size: .50em;
 
+}
 
+#Contact {
+    font-weight: 500;
+    border-top: 1.5px solid var(--secondarybg);
+    border-radius: 12px;
+}
 
+#Fun_Facts_about_me{
+    border-top: 1.5px solid var(--secondarybg);
+    border-radius: 12px;
+}
+
+#Projects {
+    border-top: 1.5px solid var(--secondarybg);
+    border-radius: 12px;
+}
+
+#About {
+    border-top: 1.5px solid var(--secondarybg);
+    border-radius: 12px;
+}
+.projectlist{
+    font-size: 2em;
+    text-shadow: .75px .75px var(--highlight)
+
+}
