@@ -7,3 +7,9 @@ Intro to HTML
 #Portfolio Starting Html
 Beginning of Semester Long Project
 made logo made in canvas
+
+
+
+
+How To Create a Dropdown Menu With CSS and JavaScript. (n.d.). Www.W3schools.Com. Retrieved October 8, 2026, from https://www.w3schools.com/howto/howto_js_dropdown.asp
+This source was used in creation of the rulesets beginning on lines 77, 82, and 88.

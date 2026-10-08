@@ -2,7 +2,7 @@
     --primarybg: #BE8995;
     --primarytext: #2A2D34;
     --projectarticles: #8EB89B;
-    --secondarybg: #1098F7; 
+    --secondarybg: #FAD4C0; 
     --highlight: #80C2AF;
     --standardgap: 40px;
 
@@ -11,14 +11,14 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: var(--primarybg);
-    color: var(--primarytext)
-
-
+    color: var(--primarytext);
+    text-shadow: .75px .75px var(--highlight);
 }
 
 #Projects article {
     background-color: var(--projectarticles);
     margin: var(--standardgap)
+    box-shadow: 10px 10px;
 }
     
 #menu {
@@ -44,7 +44,7 @@ nav{
 
 }
 
-footer{
+.end{
     text-align: center;
 }
 
@@ -52,8 +52,46 @@ footer{
     position: relative;
     left: 675px;
     bottom: -25px;
+ 
 }
 
 #logo img:hover {
     transform: scale(1.1);
 }
+
+nav ul li{
+    display:inline-block;
+    left: 675px
+
+}
+
+nav ul li a {
+    position: relative;
+    left: 125px;
+    font-size: 25px;
+    color: var(--secondarybg);
+    padding: 2rem 1rem;
+}
+
+
+.wayfinder{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_test {
+    display: none;
+    position: absolute
+}
+
+
+.dropdown:hover .dropdown_test {
+    display: block;
+}
+
+/* How To Create a Dropdown Menu With CSS and JavaScript. (n.d.). Www.W3schools.Com. Retrieved October 8, 2026, from https://www.w3schools.com/howto/howto_js_dropdown.asp*/
+/*This source was used in creation of the rulesets beginning on lines 77, 82, and 88.*/
+
+
+
+
