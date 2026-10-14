@@ -19,7 +19,10 @@ body {
     text-shadow: .75px .75px var(--highlight);
     border-bottom: 10px solid var(--secondarybg);
 }
-
+main{
+    margin: 0 auto;
+    width: 750px;
+}
 
 #Projects {
     display: grid;
@@ -49,7 +52,13 @@ body {
         grid-template-columns: repeat(2, minmax(0, 2fr));
     }
 }
-    
+@media (max-width: 599px) {
+    #Projects {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
+
+
 #menu {
     background-color: var(--primarybg)
 }
@@ -147,7 +156,7 @@ nav ul li a {
     border-top: 1.5px solid var(--secondarybg);
     border-radius: 12px;
 }
-/* copilot used in this section from the prompt: make the ol in my #Projects article section format into a grid properly without tocuhing an other style commands that are relate to #logo and nav ul li/ nav ul li a*/
+/* copilot used in this section for the first three lines inside in the .projectlist command, from the prompt: make the ol in my #Projects article section format into a grid properly without tocuhing an other style commands that are relate to #logo and nav ul li/ nav ul li a*/
 .projectlist{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
