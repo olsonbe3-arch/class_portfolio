@@ -22,8 +22,13 @@ body {
 
 
 #Projects {
-    border-top: 1.5px solid var(--secondarybg);
-    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 3fr;
+    gap: 2rem;
+}
+
+#Projects > h2 {
+    grid-column: 1 / -1;
 }
 
 #Projects article {
@@ -33,25 +38,18 @@ body {
     margin: 0;
 }
 
-.projectlist {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    gap: 2rem;
-    font-size: 2em;
-    text-shadow: .75px .75px var(--highlight)
-}
-
-#Projects article img {
-    max-width: 100%;
-    height: auto;
-}
-
 @media (min-width: 600px) {
-    .projectlist {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    #Projects {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
     }
 }
 
+@media (min-width: 1000px) {
+    #Projects {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
+    
 #menu {
     background-color: var(--primarybg)
 }
@@ -125,7 +123,7 @@ nav ul li a {
 /*This source was used in creation of the rulesets beginning on lines 84, 90, and 96.*/
 
 #Projects article h3{
-    font-size: .50em;
+    font-size: .45em;
 
 }
 
@@ -140,7 +138,31 @@ nav ul li a {
     border-radius: 12px;
 }
 
+#Projects {
+    border-top: 1.5px solid var(--secondarybg);
+    border-radius: 12px;
+}
+
 #About {
     border-top: 1.5px solid var(--secondarybg);
     border-radius: 12px;
+}
+/* copilot used in this section from the prompt: make the ol in my #Projects article section format into a grid properly without tocuhing an other style commands that are relate to #logo and nav ul li/ nav ul li a*/
+.projectlist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: 3rem;
+    font-size: 2em;
+    text-shadow: .75px .75px var(--highlight)
+
+}
+
+/* copilot used this full command from the prompt: make the ol in my #Projects article section format into a grid properly without tocuhing an other style commands that are relate to #logo and nav ul li/ nav ul li a*/
+#Projects .projectlist li {
+    min-width: 0;
+}
+/* copilot used for this full command from the prompt: make the ol in my #Projects article section format into a grid properly without tocuhing an other style commands that are relate to #logo and nav ul li/ nav ul li a*/
+#Projects .projectlist img {
+    max-width: 100%;
+    height: auto;
 }
