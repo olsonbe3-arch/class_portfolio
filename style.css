@@ -57,7 +57,54 @@ main{
         grid-template-columns: repeat(2, minmax(0, 2fr));
     }
 }
+@media (min-width: 600px) {
+    main {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
 
+@media (min-width: 1000px) {
+    main {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
+@media (max-width: 599px) {
+    main {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
+@media (min-width: 600px) {
+    header {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
+
+@media (min-width: 1000px) {
+    header {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
+@media (max-width: 599px) {
+    header {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
+@media (min-width: 600px) {
+    footer {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
+
+@media (min-width: 1000px) {
+    footer {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
+@media (max-width: 599px) {
+    footer {
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+}
 
 #menu {
     background-color: var(--primarybg)
@@ -90,11 +137,26 @@ nav{
     position: relative;
     left: 675px;
     bottom: 40px;
- 
+}
+/* full command added from copilot using prompt "change css file so the logo on the website will shrink with the media commands like the rest of the website"*/
+#logo img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 #logo img:hover {
     transform: scale(1.1);
+}
+/* full command added from copilot using prompt "change css file so the logo on the website will shrink with the media commands like the rest of the website"*/
+@media (max-width: 999px) {
+    #logo {
+        left: 0;
+    }
+/* full command added from copilot using prompt "change css file so the logo on the website will shrink with the media commands like the rest of the website"*/
+    #logo img {
+        width: min(40vw, 240px);
+    }
 }
 
 nav ul li{
