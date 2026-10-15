@@ -135,7 +135,7 @@ nav{
 
 #logo {
     position: relative;
-    left: 675px;
+    left: 615px;
     bottom: 40px;
 }
 /* full command added from copilot using prompt "change css file so the logo on the website will shrink with the media commands like the rest of the website"*/
@@ -167,7 +167,7 @@ nav ul li{
 
 nav ul li a {
     position: relative;
-    left: 125px;
+    left: 50px;
     font-size: 25px;
     color: var(--secondarybg);
     padding: 2rem 1rem;
@@ -201,22 +201,22 @@ nav ul li a {
 #Contact {
     font-weight: 500;
     border-top: 1.5px solid var(--secondarybg);
-    border-radius: 12px;
+    border-radius: 25px;
 }
 
 #Fun_Facts_about_me{
     border-top: 1.5px solid var(--secondarybg);
-    border-radius: 12px;
+    border-radius: 25px;
 }
 
 #Projects {
     border-top: 1.5px solid var(--secondarybg);
-    border-radius: 12px;
+    border-radius: 25px;
 }
 
 #About {
     border-top: 1.5px solid var(--secondarybg);
-    border-radius: 12px;
+    border-radius: 25px;
 }
 /* copilot used in this section for the first three lines inside in the .projectlist command, from the prompt: make the ol in my #Projects article section format into a grid properly without tocuhing an other style commands that are relate to #logo and nav ul li/ nav ul li a*/
 .projectlist{
