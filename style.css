@@ -12,6 +12,12 @@
     --standardgap: 40px;
 }
 
+body[data-theme="dark"] {
+    --primarybg: #25282D;
+    --primarytext: #F7EEE8;
+    --projectarticles: #383D43;
+}
+/* lines 14 to 19 were genreated by copilot using command "Using java script in tandem with the CSS file, build a function that allows a light and dark mode toggle that doesn't interfere with the current color palette and leave all features of the css file working"*/
 body {
     font-family: "Montserrat";
     background:var(--primarybg);
@@ -110,6 +116,21 @@ main{
     background-color: var(--primarybg)
 }
 
+#theme-toggle {
+    color: var(--primarytext);
+    background: var(--projectarticles);
+    border: 2px solid var(--secondarybg);
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    font: inherit;
+    cursor: pointer;
+}
+
+#theme-toggle:focus-visible {
+    outline: 3px solid var(--highlight);
+    outline-offset: 3px;
+}
+/* lines 118 to 132 were genreated by copilot using command "Using java script in tandem with the CSS file, build a function that allows a light and dark mode toggle that doesn't interfere with the current color palette and leave all features of the css file working"*/
 h2{
     font-size: 2.5em;
     font-weight: 2em;
