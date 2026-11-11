@@ -13,3 +13,5 @@ made logo made in canvas
 
 How To Create a Dropdown Menu With CSS and JavaScript. (n.d.). Www.W3schools.Com. Retrieved October 8, 2026, from https://www.w3schools.com/howto/howto_js_dropdown.asp
 This source was used in creation of the rulesets beginning on lines 77, 82, and 88.
+
+/* lines 8 and 28 were genreated by copilot using command "Using java script in tandem with the CSS file, build a function that allows a light and dark mode toggle that doesn't interfere with the current color palette and leave all features of the css file working"*/
