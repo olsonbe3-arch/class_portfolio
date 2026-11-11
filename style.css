@@ -117,6 +117,10 @@ main{
 }
 
 #theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
     color: var(--primarytext);
     background: var(--projectarticles);
     border: 2px solid var(--secondarybg);
@@ -125,7 +129,7 @@ main{
     font: inherit;
     cursor: pointer;
 }
-
+/* lines 120 to 123 generate by copilot using command "change to dark_mode.png in the logo area during dark mode. also move the light and dark mode toggle to the top right"*/
 #theme-toggle:focus-visible {
     outline: 3px solid var(--highlight);
     outline-offset: 3px;

@@ -1,6 +1,7 @@
 const themeToggle = document.querySelector("#theme-toggle");
+const logoImage = document.querySelector("#logo img");
 const savedTheme = localStorage.getItem("portfolio-theme");
-
+/* line 2 generate by copilot using command "change to dark_mode.png in the logo area during dark mode. also move the light and dark mode toggle to the top right"*/
 if (savedTheme === "dark") {
 	document.body.dataset.theme = "dark";
 }
@@ -9,8 +10,9 @@ function updateThemeToggle() {
 	const isDark = document.body.dataset.theme === "dark";
 	themeToggle.textContent = isDark ? "Light mode" : "Dark mode";
 	themeToggle.setAttribute("aria-pressed", String(isDark));
+	logoImage.src = isDark ? "image/dark_mode.png" : "image/Logo.updated.png";
 }
-
+/* line 13 generate by copilot using command "change to dark_mode.png in the logo area during dark mode. also move the light and dark mode toggle to the top right"*/
 themeToggle.addEventListener("click", () => {
 	const isDark = document.body.dataset.theme !== "dark";
 
